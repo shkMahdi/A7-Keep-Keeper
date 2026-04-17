@@ -5,9 +5,9 @@ import { FriendContext } from "../../Context/friendContext";
 const Stats = () => {
     const { storeInterections } = useContext(FriendContext);
 
-    const textCount = storeInterections.filter(item => item.type === 'Text').length;
-    const callCount = storeInterections.filter(item => item.type === 'Call').length;
-    const videoCount = storeInterections.filter(item => item.type === 'Video-call').length;
+    const textCount = storeInterections.filter(item => item.type.toLowerCase() === 'text').length;
+    const callCount = storeInterections.filter(item => item.type.toLowerCase() === 'call').length;
+    const videoCount = storeInterections.filter(item => item.type.toLowerCase() === 'video-call').length;
 
     const data = [
         { name: "text", value: textCount || 0, fill: "#7E35E1" },

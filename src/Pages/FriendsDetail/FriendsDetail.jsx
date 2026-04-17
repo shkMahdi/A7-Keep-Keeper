@@ -122,7 +122,7 @@ const FriendsDetail = () => {
                             <span className="mt-2 text-sm">Text</span>
                         </button>
 
-                        <button onClick={() => handleInteractions("Video-call", friend, new Date())} className="flex flex-col items-center justify-center border rounded-lg py-6 hover:bg-gray-100">
+                        <button onClick={() => handleInteractions("video-call", friend, new Date())} className="flex flex-col items-center justify-center border rounded-lg py-6 hover:bg-gray-100">
                             <FiVideo size={20} />
                             <span className="mt-2 text-sm">Video</span>
                         </button>
