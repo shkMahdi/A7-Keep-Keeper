@@ -12,12 +12,12 @@ const Timeline = () => {
         <div className="w-[95%] md:max-w-6xl mx-auto my-15">
             <div className="space-y-4">
                 <p className="text-center md:text-left text-3xl font-bold">Timeline</p>
-                <div>
-                    <select defaultValue="Pick a color" className="select">
-                        <option disabled={true}>Pick a color</option>
-                        <option>Crimson</option>
-                        <option>Amber</option>
-                        <option>Velvet</option>
+                <div className="text-center md:text-left">
+                    <select defaultValue="Pick an option" className="select">
+                        <option disabled={true}>Filter timeline</option>
+                        <option>Call</option>
+                        <option>Text</option>
+                        <option>Video</option>
                     </select>
                 </div>
                 {
