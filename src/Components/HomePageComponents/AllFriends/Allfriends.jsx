@@ -22,7 +22,7 @@ const Allfriends = () => {
         <div className='w-[95%] md:max-w-227.5 mx-auto'>
             <div className="py-8 border-t border-t-gray-300">
                 <p className="text-center md:text-left text-2xl font-bold">Your Friends</p>
-                <Suspense fallback={<div className="flex justify-center items-center py-20"><PropagateLoader color="#36d7b7" /></div>}>
+                <Suspense fallback={<div className="flex justify-center items-center py-20"><PropagateLoader color="#244D3F" /></div>}>
                     <FriendsContent />
                 </Suspense>
             </div>
