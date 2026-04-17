@@ -20,6 +20,7 @@ const Stats = () => {
         <div className='w-[95%] md:max-w-227.5 mx-auto space-y-8 my-8'>
             <p className="text-center md:text-left text-3xl font-bold">Friendship Analytics</p>
             <div className="shadow-xl p-10 rounded-2xl">
+                <p className="font-medium">By Interection Type:</p>
                 {totalInteractions === 0 ? (
                     <div className="flex justify-center items-center py-20 text-gray-500">
                         <p>No interactions yet. Start adding interactions to see the analytics!</p>
