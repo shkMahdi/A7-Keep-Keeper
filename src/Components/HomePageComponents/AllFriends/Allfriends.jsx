@@ -2,7 +2,7 @@ import { use, Suspense } from "react";
 import FriendCard from "../../UI/FriendCard";
 import { PropagateLoader } from "react-spinners";
 
-const friendsData = fetch("/public/Data/friendsData.json").then(res => res.json());
+const friendsData = fetch("/Data/friendsData.json").then(res => res.json());
 
 const FriendsContent = () => {
     const friends = use(friendsData);
