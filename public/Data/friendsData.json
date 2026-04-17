@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Ahsan Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "ahsan.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["university", "roommate"],
+    "bio": "We studied software engineering together and used to code late nights before exams.",
+    "goal": 14,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["school", "close friend"],
+    "bio": "We have been friends since school and still catch up over long phone calls.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 3,
+    "name": "Farhan Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "farhan.ahmed@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Met at the gym and we motivate each other to stay consistent with workouts.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 4,
+    "name": "Tasnim Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "tasnim.c@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["office", "colleague"],
+    "bio": "Worked together on multiple projects and often discuss career growth.",
+    "goal": 14,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 5,
+    "name": "Rakib Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "rakib.hasan@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["neighborhood", "childhood friend"],
+    "bio": "Grew up in the same area and spent countless evenings playing cricket.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 6,
+    "name": "Maliha Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "maliha.sultana@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["university", "project partner"],
+    "bio": "Collaborated on several university assignments and hackathons.",
+    "goal": 10,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 7,
+    "name": "Shafiq Karim",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "shafiq.karim@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["mentor", "career"],
+    "bio": "A senior who guided me during my early career decisions.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 8,
+    "name": "Rima Akter",
+    "picture": "https://randomuser.me/api/portraits/women/18.jpg",
+    "email": "rima.akter@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["book club", "friend"],
+    "bio": "We meet monthly to discuss books and share recommendations.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  }
+]
