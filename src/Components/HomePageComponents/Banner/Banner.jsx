@@ -1,4 +1,4 @@
-import React from 'react';
+import SummaryCard from "../../UI/SummaryCard";
 
 const Banner = () => {
     return (
@@ -13,22 +13,11 @@ const Banner = () => {
                 </button>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-8'>
-                <div className='text-center space-y-2 border border-gray-300 rounded-2xl py-4'>
-                    <p className='text-2xl md:text-4xl font-semibold text-[#244D3F]'>10</p>
-                    <p className='text-[#64748B] font-semibold text-xl'>Totol Friends</p>
-                </div>
-                <div className='text-center space-y-2 border border-gray-300 rounded-2xl py-4'>
-                    <p className='text-2xl md:text-4xl font-semibold text-[#244D3F]'>10</p>
-                    <p className='text-[#64748B] font-semibold text-xl'>Totol Friends</p>
-                </div>
-                <div className='text-center space-y-2 border border-gray-300 rounded-2xl py-4'>
-                    <p className='text-2xl md:text-4xl font-semibold text-[#244D3F]'>10</p>
-                    <p className='text-[#64748B] font-semibold text-xl'>Totol Friends</p>
-                </div>
-                <div className='text-center space-y-2 border border-gray-300 rounded-2xl py-4'>
-                    <p className='text-2xl md:text-4xl font-semibold text-[#244D3F]'>10</p>
-                    <p className='text-[#64748B] font-semibold text-xl'>Totol Friends</p>
-                </div>
+                <SummaryCard stat={"10"} title={"Totol Friends"}></SummaryCard>
+                <SummaryCard stat={"10"} title={"On Track"}></SummaryCard>
+                <SummaryCard stat={"10"} title={"Need Attention"}></SummaryCard>
+                <SummaryCard stat={"10"} title={"Interactions This Month"}></SummaryCard>
+                
             </div>
         </div>
     );
