@@ -8,10 +8,10 @@ const Navbar = () => {
             <NavLink to={'/'} className={({ isActive }) => `btn ${isActive ? "bg-[#244D3F] text-white" : ""}`}><IoHomeOutline />Home</NavLink>
         </li>
         <li>
-            <NavLink to={'/timeline'} className={({ isActive }) => `btn bg-white text-gray-500 ${isActive ? "bg-[#244D3F] text-white" : ""}`}><IoTimeOutline />Timeline</NavLink>
+            <NavLink to={'/timeline'} className={({ isActive }) => `btn ${isActive ? "bg-[#244D3F] text-white" : ""}`}><IoTimeOutline />Timeline</NavLink>
         </li>
         <li>
-            <NavLink to={'stats'} className={({ isActive }) => `btn bg-white text-gray-500 ${isActive ? "bg-[#244D3F] text-white" : ""}`}><ImStatsDots />Stats</NavLink>
+            <NavLink to={'/stats'} className={({ isActive }) => `btn ${isActive ? "bg-[#244D3F] text-white" : ""}`}><ImStatsDots />Stats</NavLink>
         </li>
     </>
 
